@@ -27,7 +27,7 @@ https://github.com/modelcontextprotocol/csharp-sdk/tree/main/samples
   * [サーバー側の戻り値をオブジェクトにしてみる](#サーバー側の戻り値をオブジェクトにしてみる)
   * [AIっぽさを足す ※Gemini](#aiっぽさを足す-gemini)
   * [Dify + MCP SSE で呼び出してみる](#dify--mcp-sse-で呼び出してみる)
-  
+
 ## 環境
 ```
 $ cat /etc/os-release 
@@ -73,7 +73,7 @@ dotnet add MCPServerLab package ModelContextProtocol.AspNetCore --prerelease
 #### `Program.cs` に対応するコードを追加
 MCP C# SDK の AspNetCoreSseServer のサンプルをベースに Kazuki さんの WeatherForecastTool をガッチャンコ 
 
-MCP C# SDK - Samples - AspNetCoreSseServer
+MCP C# SDK - Samples - AspNetCoreSseServer  
 https://github.com/modelcontextprotocol/csharp-sdk/blob/main/samples/AspNetCoreSseServer
 
 ```cs
@@ -421,7 +421,6 @@ Console.WriteLine($"\n\n{prompt}\n{result}");
 ```
 
 ### 実行
-→　戻り値が object + JSON 形式 ※日本語がデコードされている
 
 #### サーバー起動
 ```sh
