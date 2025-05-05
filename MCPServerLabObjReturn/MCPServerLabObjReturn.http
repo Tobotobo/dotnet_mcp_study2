@@ -1,0 +1,6 @@
+@MCPServerLabObjReturn_HostAddress = http://localhost:5262
+
+GET {{MCPServerLabObjReturn_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
