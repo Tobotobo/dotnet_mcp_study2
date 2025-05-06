@@ -17,6 +17,12 @@ https://github.com/modelcontextprotocol/csharp-sdk
 MCP C# SDK - Samples  
 https://github.com/modelcontextprotocol/csharp-sdk/tree/main/samples
 
+指定した情報で PDF を生成する MCP サーバーを C# で作成し、Dify から呼び出してみる  
+https://github.com/Tobotobo/dotnet_mcp_study3  
+
+Dify を Docker で構築してみる  
+https://github.com/Tobotobo/dify_study1  
+
 ## 目次
 * [環境](#環境)
 * [各種バージョン](#各種バージョン)
